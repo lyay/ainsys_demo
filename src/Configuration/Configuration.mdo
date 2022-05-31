@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3a3373d0-f996-4d14-b9bb-49406c3b2d30">
+  <name>AINSYS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключение к AINSYS</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <logo>Extended</logo>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="fe941078-c598-49b6-abff-b7fa3fee43ab"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="d3c01f5a-29df-4c94-960b-7b2a3fa2379c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="63fdb294-29a6-4b5b-8651-06669ce41c01"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="d9f9a825-15b0-4772-9bc3-6a491e666163"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b789d638-d8a6-4847-ae84-73222da6093a"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="68f54af0-3382-4520-b52d-58c06abc34c8"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="520fb6eb-1c06-45c1-b033-95153637ef78"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>AINSYS</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.16</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Юрий Ляшко</vendor>
+  <version>0.9</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Инструмент настройки обмена с помощью http сервисов</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Инструмент настройки обмен с помощью http сервисов. Для обменя используется формат  json.</value>
+  </detailedInformation>
+  <logo/>
+  <copyright>
+    <key>ru</key>
+    <value>Юрий Ляшко lyay@yandex.ru</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>https://infostart.ru/profile/10200/</value>
+  </vendorInformationAddress>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <languages uuid="f81354c7-adec-46d0-b2bf-d7b7204b23b2">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.AINSYS</subsystems>
+  <commonPictures>CommonPicture.AINSYS</commonPictures>
+  <commonPictures>CommonPicture.AINSYS_32</commonPictures>
+  <roles>Role.AINSYS_Админ</roles>
+  <roles>Role.AINSYS_пользователь</roles>
+  <commonModules>CommonModule.AINSYS_сервер</commonModules>
+  <commonModules>CommonModule.AINSYS_HTTP</commonModules>
+  <commonModules>CommonModule.AINSYS_Переопределяемый</commonModules>
+  <httpServices>HTTPService.AINSYS_сервис</httpServices>
+  <catalogs>Catalog.AINSYS_ОписаниеДанных</catalogs>
+  <catalogs>Catalog.AINSYS_ПланыСинхронизации</catalogs>
+  <enums>Enum.AINSYS_СпособВыбокиДанных</enums>
+  <enums>Enum.AINSYS_ТипыДанных</enums>
+  <informationRegisters>InformationRegister.AINSYS_НовыеПоля</informationRegisters>
+  <informationRegisters>InformationRegister.AINSYS_Журнал</informationRegisters>
+</mdclass:Configuration>

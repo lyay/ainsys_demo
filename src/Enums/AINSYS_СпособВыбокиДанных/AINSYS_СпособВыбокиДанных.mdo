@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1790924c-c3c1-42e8-9165-091e1decfb76">
+  <producedTypes>
+    <refType typeId="27d4fdeb-c1c1-479d-914c-f136ddfdc7c5" valueTypeId="a033ccc7-7819-4254-9f49-d937e2f779bf"/>
+    <listType typeId="1958a565-cfc9-4c79-9400-6df8ec53c3f0" valueTypeId="6f908da4-9ecd-4f6a-a3dc-2752e9482d0d"/>
+    <managerType typeId="a9c6532e-bd05-479d-bb6a-b7b8f2ae9aae" valueTypeId="b2112b18-0fe7-430d-91a7-25c1226e8a2d"/>
+  </producedTypes>
+  <name>AINSYS_СпособВыбокиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ выбоки данных (AINSYS)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a1cf66a0-c3b6-4532-9825-cf72195b01be">
+    <name>СКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="67894c84-9611-4fb4-b8f2-0e116c59f3d0">
+    <name>Программная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b7f0de5-4497-4b9d-a8c1-9abd69a433df">
+  <producedTypes>
+    <selectionType typeId="c3af423e-2cbc-4c62-b9d1-b59ed19e2e7c" valueTypeId="371a3714-fcac-47cc-9737-850c7a980e77"/>
+    <listType typeId="0d880c91-87a7-4c2b-860c-ad8acfc2d98d" valueTypeId="fa8a5c8f-e8a4-4fff-8d76-b4f6b2eadeb3"/>
+    <managerType typeId="1de86674-c673-4c74-a946-bd61a24bf0fa" valueTypeId="2da65ea6-330b-4964-a15d-99eb9130eb60"/>
+    <recordSetType typeId="91baea25-34b2-4fcf-966c-db01c0d6d2f5" valueTypeId="b21fe428-4d7a-4e62-b96f-66c13b189e29"/>
+    <recordKeyType typeId="28e12160-4168-4444-8c78-7f63c1207dba" valueTypeId="3fc55de1-1f18-4934-8344-58ddd55bd4d4"/>
+    <recordType typeId="f39b77d5-c4cd-49a3-aa66-5008bbeb8162" valueTypeId="7bae5803-2279-494f-8fa7-a2ceea3664ec"/>
+    <recordManagerType typeId="af30485a-ffb0-41eb-881c-ec4dd893f234" valueTypeId="50825dc7-f5ec-4f71-b3d2-e47ab63ba2e5"/>
+  </producedTypes>
+  <name>AINSYS_НовыеПоля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Новые поля в правилах обмена AINSYS</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8c71a009-c1fb-418c-91c6-2cd3fe28cf2d">
+    <name>НовыеПоля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новые поля</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="3876b152-02fc-4296-bd9d-34e921d7bbde">
+    <name>ПолученныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полученные данные</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="c9ba8b66-746a-4706-a2f4-ee94aa252432">
+    <name>ПравилоОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило обмена</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.AINSYS_ОписаниеДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1a9015ee-3662-4b43-8347-ab66f35a5161">
+    <name>ДатаПолучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата получения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

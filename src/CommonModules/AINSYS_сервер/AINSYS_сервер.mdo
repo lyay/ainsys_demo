@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d596817e-78d7-45fb-972e-ecf0f168c7e3">
+  <name>AINSYS_сервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>AINSYS сервер</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

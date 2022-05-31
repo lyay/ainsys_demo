@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2d29d3b-9fca-4480-95a7-edf64c932563">
+  <name>AINSYS</name>
+  <synonym>
+    <key>ru</key>
+    <value>AINSYS</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.AINSYS_32</picture>
+  </picture>
+  <content>CommonPicture.AINSYS</content>
+  <content>Catalog.AINSYS_ОписаниеДанных</content>
+  <content>CommonModule.AINSYS_сервер</content>
+  <content>HTTPService.AINSYS_сервис</content>
+  <content>CommonPicture.AINSYS_32</content>
+  <content>Enum.AINSYS_СпособВыбокиДанных</content>
+  <content>Enum.AINSYS_ТипыДанных</content>
+  <content>Catalog.AINSYS_ПланыСинхронизации</content>
+  <content>0083a155-f943-4426-8670-85b656ec4476</content>
+  <content>InformationRegister.AINSYS_НовыеПоля</content>
+  <content>InformationRegister.AINSYS_Журнал</content>
+</mdclass:Subsystem>

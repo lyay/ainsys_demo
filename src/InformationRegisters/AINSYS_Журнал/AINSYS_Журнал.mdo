@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bb06019-1d89-4041-a8ed-9717ab813f3f">
+  <producedTypes>
+    <selectionType typeId="ea216730-914b-4edf-a6c6-82d68ec05c73" valueTypeId="76955658-c45e-4eed-8c0f-522ebf407d95"/>
+    <listType typeId="14048ec3-bc27-4a66-a972-f02e4bd2c9d4" valueTypeId="1e03d40e-4783-4ddd-9d9f-835ed592eafa"/>
+    <managerType typeId="39ead796-cfff-4305-9367-b775901759ef" valueTypeId="ea34709e-b239-49b1-9c52-37bc52253f66"/>
+    <recordSetType typeId="60ad8cfb-d7b4-4740-90b1-61984b17358f" valueTypeId="ad4a44a3-42d7-4551-bd22-097d93413b87"/>
+    <recordKeyType typeId="d54abf64-ddaf-465b-9530-21d8ce6c524b" valueTypeId="2404254d-a54c-43eb-9e22-f84396f1f9c8"/>
+    <recordType typeId="1d1fed2b-5b15-45e7-9ef8-e9c07ea95bf0" valueTypeId="991819c1-602a-47f5-a3ca-3bbb30f2838f"/>
+    <recordManagerType typeId="17418a00-565a-4737-b695-a1b312c365bf" valueTypeId="36442957-b1d5-4317-8c6e-035d2eb923ba"/>
+  </producedTypes>
+  <name>AINSYS_Журнал</name>
+  <synonym>
+    <key>ru</key>
+    <value>AINSYS журнал</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.AINSYS_Журнал.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e9a6cefa-c605-4cee-b920-b381c4eb602d">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="b0a39731-9842-4f62-9963-38ac1e5feb30">
+    <name>ПравилоОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило обмена</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.AINSYS_ОписаниеДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="628a1632-74f1-48ed-a0c9-b69bbe0d6a3c">
+    <name>ДатаСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата события</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d9d6d8b6-afdd-4a40-a614-113da4db35cc">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

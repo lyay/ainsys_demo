@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="728c9c56-89b2-40f6-8805-762c9723e49b">
+  <name>AINSYS_сервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>AINSYS сервис</value>
+  </synonym>
+  <rootURL>ainsys</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="e969effb-af12-4c21-951d-6838bc3e4acc">
+    <name>ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <template>/ping/{par}</template>
+    <methods uuid="6eb4b1cd-120b-48fd-8ba7-698a093181ba">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>pingGET</handler>
+    </methods>
+    <methods uuid="5f1c3d37-e01d-4f2b-b848-b706593c5490">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>pingPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="dd38d26c-d02b-4a93-9b5d-ec3294bda4a8">
+    <name>Корень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корень</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="67ca7da4-6c13-45f9-84a0-3f0452019da2">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>КореньGET</handler>
+    </methods>
+    <methods uuid="0b731581-4e58-4b4d-93b2-9196aae04b0d">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>КореньPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="0d3da95f-8b49-464b-ae78-282c74568d6f">
+    <name>md</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метаданные</value>
+    </synonym>
+    <template>/md/*</template>
+    <methods uuid="81f94b9b-de9b-48e0-8bb5-4fcdba4ea49d">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>mdGET</handler>
+    </methods>
+    <methods uuid="6a58c631-9123-47db-a36a-b1208f9ac574">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>mdPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="24fcf5ad-8f95-4fea-a6bc-3dffdec7a80c">
+    <name>data</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <template>/data/*</template>
+    <methods uuid="0246fefc-0e0f-43f2-be08-00c58f9c7bcc">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>dataGET</handler>
+    </methods>
+    <methods uuid="29c66f27-1465-4c1c-8a63-638be0c174a2">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>dataPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
